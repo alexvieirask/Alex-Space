@@ -1,3 +1,5 @@
+@import "../../styles/_vars.scss"; 
+
 main {
     margin: 0 24px;
   }
@@ -20,7 +22,7 @@ main {
       h1 {
         position: absolute;
         z-index: 1;
-        color: #d9d9d9;
+        color: $text-color;
         font-size: 2.5rem;
         width: 401px;
         height: 144px;
@@ -28,4 +30,12 @@ main {
         left: 44px;
       }
     }
+  }
+
+  .galery {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-left: 17%;
+    margin-top: 1rem;
   }
