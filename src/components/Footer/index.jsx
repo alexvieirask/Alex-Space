@@ -14,24 +14,24 @@ export default function Footer() {
           target="_blank"
           rel="noreferrer"
         >
-          <img src={facebook} alt="ícone do facebook" />
+          <img src={facebook} alt="Facebook Icon" />
         </a>
         <a
           href="https://twitter.com/alexvieirask"
           target="_blank"
           rel="noreferrer"
         >
-          <img src={twitter} alt="ícone do twitter" />
+          <img src={twitter} alt="Twitter Icon" />
         </a>
         <a
           href="https://www.instagram.com/alexvieirask  "
           target="_blank"
           rel="noreferrer"
         >
-          <img src={instagram} alt="ícone do instagram" />
+          <img src={instagram} alt="Instagram Icon" />
         </a>
       </div>
-      <p>Desenvolvido por Alura</p>
+      <p>Desenvolvido por Alura/Alex</p>
     </footer>
   );
 }
