@@ -1,12 +1,13 @@
 import React from "react"
-
-
-import Header from "../../components/Header"
-import Menu from "../../components/Menu"
-import Banner from "../../components/Banner"
-import Galery from "../../components/Galery"
-import Footer from "../../components/Footer"
 import styles from "./home.module.scss"
+
+import Header from "components/Header"
+import Menu from "components/Menu"
+import Banner from "components/Banner"
+import Galery from "components/Galery"
+import Popular from "components/Popular"
+import Footer from "components/Footer"
+
 
 
 
@@ -19,10 +20,11 @@ export default function Home(){
                 <Menu />
                 <Banner />
             </section>
+            <div className={styles.galery}>
+                <Galery/>
+                <Popular/>
+            </div>
         </main>
-        <div className={styles.galery}>
-            <Galery/>
-        </div>
         <Footer/>
         </>
     )
