@@ -5,3 +5,5 @@ Este projeto foi desenvolvido com a finalidade de aprimorar os conhecimentos rel
 Segue o resultado abaixo:
 
 https://alex-space.vercel.app
+
+Obs.: Projeto realizado com o auxilio do curso <strong>React com JavaScript: lidando com arquivos estáticos</strong> da plataforma Alura.
