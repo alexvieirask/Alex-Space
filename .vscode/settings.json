@@ -1,4 +1,0 @@
-{
-    "scss.lint.unknownAtRules": "ignore",
-    "scss.lint.compatibleVendorPrefixes": "ignore",
-}
